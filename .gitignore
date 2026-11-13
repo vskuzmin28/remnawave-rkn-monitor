@@ -1,0 +1,12 @@
+.env
+venv/
+env/
+.venv/
+sites.txt
+state.json
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+.idea/
+.vscode/

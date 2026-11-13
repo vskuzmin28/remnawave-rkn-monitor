@@ -1,0 +1,16 @@
+services:
+  rkn-monitor:
+    build: .
+    container_name: remnawave-rkn-monitor
+    restart: unless-stopped
+    network_mode: "host"
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
+    env_file:
+      - .env
+    volumes:
+      - ./sites.txt:/app/sites.txt
+      - ./state.json:/app/state.json
+    environment:
+      - TZ=Europe/Moscow
