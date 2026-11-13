@@ -40,15 +40,7 @@ SITES_FILE = "sites.txt"
 STATE_FILE = "state.json"
 
 # --- СПРАВОЧНИК НОД (Запасной вариант) ---
-NODE_METADATA = {
-    "status.vitosh.ru": {"node": "Panel [DE] Remnawave", "ip": "138.124.228.231", "provider": "nuxt.cloud"},
-    "cdn001.vitosh.ru": {"node": "CDN", "ip": "yandex.cloud", "provider": "yandex.cloud"},
-    "details.vitosh.ru": {"node": "Exit [FI] node #2", "ip": "62.60.226.45", "provider": "nuxt.cloud"},
-    "cdn031.vitosh.ru": {"node": "Exit [FI] node #3", "ip": "45.14.165.203", "provider": "hip.hosting"},
-    "os.vitosh.ru":     {"node": "Exit [DE] node #5", "ip": "152.234.209.185", "provider": "nuxt.cloud"},
-    "fabric.vitosh.ru": {"node": "Entry [RU] node #1", "ip": "77.83.244.190", "provider": "nuxt.cloud"},
-    "depends.vitosh.ru":{"node": "Exit [DE] node #4", "ip": "48.102.185.144", "provider": "nuxt.cloud"},
-}
+NODE_METADATA = {}
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
